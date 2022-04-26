@@ -265,6 +265,7 @@ var helperFuncs = template.FuncMap{
 	"downFirst": downFirst,
 	"replace":   strings.ReplaceAll,
 	"snake":     toSnakeCase,
+	"split":     strings.Split,
 }
 
 func upFirst(s string) string {
